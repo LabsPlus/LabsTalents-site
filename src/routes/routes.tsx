@@ -1,7 +1,7 @@
 import { BrowserRouter,Route,Routes } from "react-router-dom";
 import Login from "../pages/login/Login";
 
-const Router = ()=>{
+const Routers = ()=>{
     return(
         <BrowserRouter>
             <Routes>
@@ -13,4 +13,4 @@ const Router = ()=>{
     )
 }
 
-export default Router
+export default Routers
