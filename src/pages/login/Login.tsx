@@ -1,5 +1,5 @@
 import Input from "../../components/input/input"
-
+import './style.css'
 const Login = () =>{
     return(
         <main className='container'>
