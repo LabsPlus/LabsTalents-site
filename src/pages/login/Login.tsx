@@ -1,10 +1,11 @@
 import Input from "../../components/input/input"
 import './style.css'
+import LabsTalentImage from '../../assets/labsTalentsImage.png'
 const Login = () =>{
     return(
         <main className='container'>
                 <div className='left-container'>
-                <img src='./assets/labsTalentsImage.png' alt="labsTalentsImage" />
+                <img src={LabsTalentImage} alt="labsTalentsImage" />
                 </div>
                 <div className='right-container'>
                 <div className='form-container'>
