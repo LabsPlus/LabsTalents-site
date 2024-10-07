@@ -23,7 +23,7 @@ const Login = () =>{
                         <input type="checkbox" name="" id="" />
                         <span className='text'>Lembre deste dispositivo</span> 
                     </div>
-                        <span><a href='/' className='text destaque'>Crie uma conta</a></span>
+                        <span><a href='/' className='text destaque'>Esqueceu a senha?</a></span>
                     </div>
 
                     <button type='submit'>
