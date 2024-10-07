@@ -72,12 +72,3 @@
     text-decoration: none;
     font-weight: bold;
   };
-  button{
-    width: 100%;
-    margin-top: 20px;
-    padding: 20px;
-    cursor: pointer;
-    background-color: #DCDCDC;
-    border-radius: 10px;
-    border: 1px solid #DCDCDC;
-  }

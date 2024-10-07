@@ -1,3 +1,4 @@
+import Button from '../../components/button/button'
 import Input from '../../components/input/input'
 import './style.css'
 const NewPassword = () =>{
@@ -10,14 +11,14 @@ const NewPassword = () =>{
                         <Input type='password' placeholder='Senha*'/>
                         <Input type='password' placeholder='Confirma a senha*'/>
                     </div>
-                    <button type='submit'>
+                    <Button type='submit'>
                         Registrar nova senha
-                    </button>
-                    <button className="back-login-link">
+                    </Button>
+                    <Button className="back-login-link">
                         <a href="/login">
                             Retornar ao Login
                         </a>
-                    </button>
+                    </Button>
 
                 </form>
             </div>

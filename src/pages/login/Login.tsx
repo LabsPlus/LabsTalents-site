@@ -1,3 +1,4 @@
+import Button from "../../components/button/button"
 import Input from "../../components/input/input"
 import './style.css'
 const Login = () =>{
@@ -20,9 +21,9 @@ const Login = () =>{
                 <span><a href='/' className='text destaque'>Esqueceu a senha?</a></span>
                 </div>
 
-                <button type='submit'>
+                <Button type='submit'>
                     Logar
-                </button>
+                </Button>
                 </form>
             </div>
     )
