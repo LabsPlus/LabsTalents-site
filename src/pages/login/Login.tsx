@@ -1,10 +1,11 @@
 import Input from "../../components/input/input"
 import './style.css'
+import LabsTalentImage from '../../assets/labsTalentsImage.png'
 const Login = () =>{
     return(
         <main className='container'>
                 <div className='left-container'>
-                <img src='./assets/labsTalentsImage.png' alt="labsTalentsImage" />
+                <img src={LabsTalentImage} alt="labsTalentsImage" />
                 </div>
                 <div className='right-container'>
                 <div className='form-container'>
@@ -21,8 +22,9 @@ const Login = () =>{
                     <div className='remember-device'>
                         <input type="checkbox" name="" id="" />
                         <span className='text'>Lembre deste dispositivo</span> 
-                    </div>
-                        <span><a href='/forget-password' className='text destaque'>ESqueceu a senha?</a></span>
+                    </div>                    
+
+                        <span><a href='/' className='text destaque'>Esqueceu a senha?</a></span>
                     </div>
 
                     <button type='submit'>
