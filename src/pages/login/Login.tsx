@@ -22,7 +22,8 @@ const Login = () =>{
                     <div className='remember-device'>
                         <input type="checkbox" name="" id="" />
                         <span className='text'>Lembre deste dispositivo</span> 
-                    </div>
+                    </div>                    
+
                         <span><a href='/' className='text destaque'>Esqueceu a senha?</a></span>
                     </div>
 
