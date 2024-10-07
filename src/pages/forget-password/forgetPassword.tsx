@@ -1,3 +1,4 @@
+import Button from "../../components/button/button"
 import Input from "../../components/input/input"
 import './style.css'
 const ForgetPassword = () =>{
@@ -10,14 +11,14 @@ const ForgetPassword = () =>{
                     <div className='inputs-container'>
                         <Input type='email' placeholder='Email*'/>
                     </div>
-                    <button type='submit'>
+                    <Button type='submit'>
                         Esqueci a senha
-                    </button>
-                    <button className="back-login-link">
+                    </Button>
+                    <Button className="back-login-link">
                         <a href="/login">
                             Retornar ao Login
                         </a>
-                    </button>
+                    </Button>
 
                 </form>
             </div>
