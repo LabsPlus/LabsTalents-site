@@ -1,31 +1,36 @@
 import Button from "../../components/button/button"
 import Input from "../../components/input/input"
-import './style.css'
+import { FormContainer } from "../../styles/formContainer"
+import { Link } from "../../styles/links"
+import { Paragraph } from "../../styles/paragraph"
+import { Title } from "../../styles/title"
+import { InputContainer } from "../../styles/inputContainer"
+import { RegisterLinkContainer, RememberDeviceForgetPasswordLinkContainer,Form, RememberDeviceContainer, RememberDeviceSpan } from "./loginStyles"
 const Login = () =>{
     return(
-            <div className='form-container'>
-                <h1 className='title'>Bem vindo ao LabsTalents</h1>
-                <div className='register_link_container'>
-                <p className='text'>Novo aqui?</p> <span><a href='/' className='text destaque'>Crie uma conta</a></span>
-                </div>
-                <form action="">
-                <div className='inputs-container'>
-                    <Input type='text' placeholder='Usuario*'/>
-                    <Input type='password' placeholder='Senha*'/>
-                </div>
-                <div className='remember-device-register-link'>
-                <div className='remember-device'>
-                    <input type="checkbox" name="" id="" />
-                    <span className='text'>Lembre deste dispositivo</span> 
-                </div> 
-                <span><a href='/' className='text destaque'>Esqueceu a senha?</a></span>
-                </div>
+            <FormContainer>
+                <Title>Bem vindo ao LabsTalents</Title>
+                <RegisterLinkContainer>
+                    <Paragraph>Novo aqui?</Paragraph> <Link href="/">Crie uma conta</Link>
+                </RegisterLinkContainer>
+                <Form>
+                    <InputContainer>
+                        <Input type='text' placeholder='Usuario*'/>
+                        <Input type='password' placeholder='Senha*'/>
+                    </InputContainer>
+                    <RememberDeviceForgetPasswordLinkContainer>
+                        <RememberDeviceContainer className='remember-device'>
+                            <input type="checkbox" name="" id="" />
+                            <RememberDeviceSpan>Lembre deste dispositivo</RememberDeviceSpan> 
+                        </RememberDeviceContainer> 
+                        <Link href="/forget-password">Esqueceu a senha?</Link>
+                    </RememberDeviceForgetPasswordLinkContainer>
 
-                <Button type='submit'>
-                    Logar
-                </Button>
-                </form>
-            </div>
+                    <Button type='submit'>
+                        Logar
+                    </Button>
+                </Form>
+            </FormContainer>
     )
 }
 
