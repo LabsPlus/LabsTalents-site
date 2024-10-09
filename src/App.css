@@ -1,0 +1,24 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+    width: 100vw;
+  }
+  .left-container{
+    background-color: #EEF0FA;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .right-container{
+    background-color: #fff;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+  }
