@@ -4,6 +4,7 @@ export const Link = styled.a`
     font-size: 14px;
     color: #5CCCDE;
     text-decoration:none;
+    font-weight:700;
 `
 
 export const BackLoginLink = styled(Link)`
