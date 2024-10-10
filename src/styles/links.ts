@@ -18,5 +18,6 @@ export const BackLoginLink = styled(Link)`
     text-align: center;
     color : #F5AF98;
     font-size:20px;
-    height:60px
+    font-weight:600;
+    height:60px;
 `
