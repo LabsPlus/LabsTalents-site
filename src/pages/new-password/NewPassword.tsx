@@ -16,7 +16,7 @@ const NewPassword = () =>{
                     </div>
                     <Button type='submit'>
                         Registrar nova senha
-                    </Button>
+                    </Button>        
                     <BackLoginLink href='/login' className="back-login-link">
                         Retornar ao Login
                     </BackLoginLink>
@@ -24,7 +24,6 @@ const NewPassword = () =>{
                 </Form>
             </div>
         </FormContainer>
-
     )
 }
 
