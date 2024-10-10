@@ -10,7 +10,7 @@ export const Link = styled.a`
 export const BackLoginLink = styled(Link)`
     width: 100%;
     margin-top: 20px;
-    padding: 20px;
+    padding: 13px;
     cursor: pointer;
     background-color: transparent;
     border-radius: 10px;
@@ -18,4 +18,5 @@ export const BackLoginLink = styled(Link)`
     text-align: center;
     color : #F5AF98;
     font-size:20px;
+    height:60px
 `
