@@ -1,0 +1,46 @@
+.left-container{
+    background-color: #EEF0FA;
+}
+.page-title {
+    color: #404857;
+    text-align: justify;
+    font-family: sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+}
+
+.sub-title {
+    font-size: 14px;
+    text-align: justify;
+    color: #2C3549;
+}
+
+.sub-title a {
+    color: #5CCCDE;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.container-form {
+    width: 421px;
+    padding: 25px;
+    gap: 15px;
+}
+
+
+.container-form input{
+    width: 421px;
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid #A6A6A6;
+    background: rgba(217, 217, 217, 0.00);
+    padding-left: 13px;
+
+}
+
+.registerButton {
+    background-color: #DCDCDC;
+    color: #FFFFFF;
+}
