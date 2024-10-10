@@ -4,7 +4,6 @@ import ForgetPassword from "../pages/forget-password/forgetPassword";
 import NewPassword from "../pages/new-password/NewPassword";
 import AuthRegisterUser from "../layout/auth-register-user";
 import Registrar from "../pages/registrar/Registrar";
-
 const Routers = ()=>{
     return(
         <BrowserRouter>

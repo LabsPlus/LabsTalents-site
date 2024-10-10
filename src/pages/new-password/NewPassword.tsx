@@ -1,29 +1,29 @@
 import Button from '../../components/button/button'
 import Input from '../../components/input/input'
-import './style.css'
+import { FormContainer } from '../../styles/formContainer'
+import { Title } from '../../styles/title'
+import { BackLoginLink } from '../../styles/links'
+import { Form } from '../login/loginStyles'
 const NewPassword = () =>{
     return(
-        <div className='form-container'>
+        <FormContainer >
             <div className="ajustar-largura">
-                <h1 className='title'>Digite a nova senha:</h1>
-                <form className='new-password-form' action="">
+                <Title>Digite a nova senha:</Title>
+                <Form action="">
                     <div>
                         <Input type='password' placeholder='Senha*'/>
                         <Input type='password' placeholder='Confirma a senha*'/>
                     </div>
                     <Button type='submit'>
                         Registrar nova senha
-                    </Button>
-                    <Button className="back-login-link">
-                        <a href="/login">
-                            Retornar ao Login
-                        </a>
-                    </Button>
+                    </Button>        
+                    <BackLoginLink href='/login' className="back-login-link">
+                        Retornar ao Login
+                    </BackLoginLink>
 
-                </form>
+                </Form>
             </div>
-        </div>
-
+        </FormContainer>
     )
 }
 
