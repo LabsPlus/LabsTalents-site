@@ -1,25 +1,28 @@
-import './Registrar.css'
+import Button from "../../components/button/button"
+import Input from "../../components/input/input"
+import { FormContainer } from "../../styles/formContainer"
+import { InputContainer } from "../../styles/inputContainer"
+import { Link } from "../../styles/links"
+import { Paragraph } from "../../styles/paragraph"
+import { Title } from "../../styles/title"
+import { RegisterLinkContainer } from "../login/loginStyles"
+
+
 export default function Registrar() {
     return (
-        <main >
-            <div >
-                <div >
-                    <h1 className='page-title'>Bem Vindo ao LabsTalents</h1>
-                    <div >
-                        <p className='sub-title'>Já tem uma conta?<span><a className='' href="/"> Logar</a></span></p>
-                    </div>
-                    <div className=''>
-                        <form action="" className='container-form'>
-                            <input type="text" id='nome' placeholder='Nome *' />
-                            <input type="email" id="email" placeholder='Email *' />
-                            <input type="password" id="password" placeholder='Senha *' />
-                        </form>
-                    </div>
-                    <div>
-                        <button className='registerButton'>Registrar</button>
-                    </div>
-                </div>
-            </div>
-        </main>
+        <FormContainer>
+            <Title>Bem vindo ao LabsTalents</Title>
+            <RegisterLinkContainer>
+            <Paragraph>Já tem uma conta?</Paragraph><Link href="/login">Logar</Link> 
+            </RegisterLinkContainer>
+            <InputContainer>
+                        <Input type='text' placeholder='Nome*'/>
+                        <Input type='email' placeholder='Email*'/>
+                        <Input type='password' placeholder='Senha*'/>
+                    </InputContainer>
+            <Button type='submit'>
+                        Registrar
+                    </Button>
+        </FormContainer>
     )
 }
