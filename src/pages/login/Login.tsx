@@ -11,7 +11,7 @@ const Login = () =>{
             <FormContainer>
                 <Title>Bem vindo ao LabsTalents</Title>
                 <RegisterLinkContainer>
-                    <Paragraph>Novo aqui?</Paragraph> <Link href="/">Crie uma conta</Link>
+                    <Paragraph>Novo aqui?</Paragraph> <Link href="/registrar">Crie uma conta</Link>
                 </RegisterLinkContainer>
                 <Form>
                     <InputContainer>
