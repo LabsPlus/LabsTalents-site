@@ -1,13 +1,10 @@
-import React from 'react';
-import './style.css'
-interface InputProps {
-    type: string;
-    placeholder: string;
-}
+import React, { InputHTMLAttributes } from 'react';
+import './style.css';
 
-const Input: React.FC<InputProps> = ({ type, placeholder }) => {
+// Não é mais necessário criar uma interface vazia
+const Input: React.FC<InputHTMLAttributes<HTMLInputElement>> = ({ ...rest }) => {
     return (
-        <input className='input' type={type} placeholder={placeholder} />
+        <input className='input' {...rest} />
     );
 };
 
