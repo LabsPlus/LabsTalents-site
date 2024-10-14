@@ -1,16 +1,16 @@
 import Button from "../../components/button/button"
 import Input from "../../components/input/input"
-import { FormContainer } from "../../styles/formContainer"
 import { InputContainer } from "../../styles/inputContainer"
 import { Link } from "../../styles/links"
 import { Paragraph } from "../../styles/paragraph"
 import { Title } from "../../styles/title"
 import { RegisterLinkContainer } from "../login/loginStyles"
+import { FormContainerRegister } from "./registerStyles"
 
 
 export default function Registrar() {
     return (
-        <FormContainer>
+        <FormContainerRegister>
             <Title>Bem vindo ao LabsTalents</Title>
             <RegisterLinkContainer>
             <Paragraph>Já tem uma conta?</Paragraph><Link href="/login">Logar</Link> 
@@ -23,6 +23,6 @@ export default function Registrar() {
             <Button type='submit'>
                         Registrar
                     </Button>
-        </FormContainer>
+        </FormContainerRegister>
     )
 }
